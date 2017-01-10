@@ -11,6 +11,6 @@ namespace APKScanSharedClasses
         public List<string> filename { get; set; } = new List<string>();
         public List<string> upload_ip { get; set; }
         public int hits { get; set; }
-        public Dictionary<string, string> av { get; set; }
+        public Dictionary<string, string> av { get; set; } //av_results
     }
 }

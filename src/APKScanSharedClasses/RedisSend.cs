@@ -10,5 +10,6 @@ namespace APKScanSharedClasses
         public string hash { get; set; }
         public string filename { get; set; }
         public string upload_ip { get; set;}
+        public DateTime upload_date { get; set; }
     }
 }
