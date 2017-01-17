@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 
 namespace APKScanSharedClasses
 {
-    public enum eTask { rollbackSnapshot, crateSnapshot }
+    public enum eTask { rollbackSnapshot, createSnapshot }
     public class RedisProxmox
     {
         public string vm_id { get; set; }
