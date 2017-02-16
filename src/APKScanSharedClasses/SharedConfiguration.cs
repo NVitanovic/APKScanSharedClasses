@@ -9,6 +9,7 @@ namespace APKScanSharedClasses
     {
         public Redis redis { get; set; }
         public Cassandra cassandra { get; set; }
+        public Mongo mongo { get; set; }
     }
     public class Redis
     {
@@ -21,6 +22,14 @@ namespace APKScanSharedClasses
     {
         public List<string> servers { get; set; }
         public string keyspace { get; set; }
+        public string username { get; set; }
+        public string password { get; set; }
+    }
+    public class Mongo
+    {
+        public List<string> servers { get; set; }
+        public string database { get; set; }
+        public string replicaset { get; set; }
         public string username { get; set; }
         public string password { get; set; }
     }
