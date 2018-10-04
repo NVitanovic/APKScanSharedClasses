@@ -7,7 +7,7 @@
 
   <Import Project="$(VSToolsPath)\DotNet\Microsoft.DotNet.Props" Condition="'$(VSToolsPath)' != ''" />
   <PropertyGroup Label="Globals">
-    <ProjectGuid>c81fcd00-11ea-4d79-858c-ddb1744e9c0a</ProjectGuid>
+    <ProjectGuid>4d3ccf40-3d42-4947-9678-646b62a57fbe</ProjectGuid>
     <RootNamespace>APKScanSharedClasses</RootNamespace>
     <BaseIntermediateOutputPath Condition="'$(BaseIntermediateOutputPath)'=='' ">.\obj</BaseIntermediateOutputPath>
     <OutputPath Condition="'$(OutputPath)'=='' ">.\bin\</OutputPath>

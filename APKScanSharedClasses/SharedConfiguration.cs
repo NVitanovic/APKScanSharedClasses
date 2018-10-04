@@ -10,6 +10,7 @@ namespace APKScanSharedClasses
         public Redis redis { get; set; }
         public Cassandra cassandra { get; set; }
         public Mongo mongo { get; set; }
+        public MySQL mysql { get; set; }
     }
     public class Redis
     {
@@ -24,6 +25,14 @@ namespace APKScanSharedClasses
         public string keyspace { get; set; }
         public string username { get; set; }
         public string password { get; set; }
+    }
+    public class MySQL
+    {
+        public string hostname { get; set; }
+        public string username { get; set; }
+        public string password { get; set; }
+        public string database { get; set; }
+        public string otheropt { get; set; }
     }
     public class Mongo
     {
